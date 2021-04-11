@@ -1,0 +1,48 @@
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.bg-img {
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+header {
+    position: absolute;
+    position: fixed;
+    background-color: darkgray;
+    width: 100%;
+    height: 50px;
+    top: 50px;
+}
+.logo {
+    height: 50px;
+}
+.nav-wraper {
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+}
+.div-nav {
+    width: 500px;
+}
+.ul-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* section2 */
+.sec2-div-wraper {
+    width: 1140px;
+    height: 650px;
+}
